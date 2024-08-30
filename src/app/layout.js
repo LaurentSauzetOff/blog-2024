@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'], display: "swap", variable: "--font-im"
 const manrope = Manrope({ subsets: ['latin'], display: "swap", variable: "--font-mr"  })
 
 export const metadata = {
-  title: 'PopCultureQuest',
+  title: 'PopCultureBlog',
   description: 'Created with NextJS',
 }
 
