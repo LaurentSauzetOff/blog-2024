@@ -364,6 +364,33 @@ export const LinkedinIcon = ({ className, ...rest }) => {
   );
 };
 
+export const YouTubeIcon = ({ className, ...rest }) => {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg"
+    width={42}
+    height={43}
+    viewBox="0 0 42 43"
+    className={cx("w-full h-auto", className)}
+    {...rest}>
+
+<g clipPath="url(#a)">
+<path fill="#0076B2" d="M4215 6619 c-436 -14 -930 -40 -1031 -55 -55 -8 -134 -23 -175 -35
+-323 -89 -481 -322 -518 -764 -36 -424 -48 -1238 -22 -1515 44 -485 96 -667
+230 -801 175 -175 346 -214 1081 -251 886 -44 2386 -21 2823 42 246 36 381 93
+498 209 133 133 185 312 230 791 30 311 6 1376 -36 1650 -55 362 -211 559
+-505 639 -124 34 -269 50 -615 66 -754 35 -1390 43 -1960 24z m816 -1350 c340
+-198 619 -364 619 -368 0 -6 -1211 -717 -1242 -729 -4 -2 -8 325 -8 727 0 402
+2 731 6 731 3 0 284 -162 625 -361z"/>
+</g>
+<defs>
+        <clipPath id="a">
+          <path fill="#fff" d="M0 .808h42v42H0z" />
+        </clipPath>
+      </defs>
+</svg>
+  )
+}
+
 export const TwitterIcon = ({ className, ...rest }) => {
   return (
     <svg

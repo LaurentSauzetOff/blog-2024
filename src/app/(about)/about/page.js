@@ -3,8 +3,8 @@ import Skills from "@/src/components/About/Skills";
 import Link from "next/link";
 
 export const metadata = {
-  title: "About Me",
-  description: `Here are some details about my self.`,
+  title: "A propos",
+  description: `Je vous en dis un peu plus...`,
 };
 
 export default function About() {
@@ -13,11 +13,11 @@ export default function About() {
       <AboutCoverSection />
       <Skills />
       <h2 className="mt-8 font-semibold text-lg md:text-2xl self-start mx-5 xs:mx-10 sm:mx-12 md:mx-16 lg:mx-20 text-dark dark:text-light dark:font-normal">
-        Have a project in mind? Reach out to me 📞 from{" "}
+        Vous avez un projet en tête ? Contactez-moi par 📞 from{" "}
         <Link href="/contact" className="!underline underline-offset-2">
-          here
+          ici
         </Link>{" "}
-        and let's make it happen.
+        et faisons en sorte qu'il voit le jour.
       </h2>
     </>
   );
